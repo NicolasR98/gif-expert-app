@@ -3,8 +3,14 @@
 exports[`Tests on <GifGridItem /> should show the component correctly 1`] = `
 <div
   className="card  animate__animated animate__backInRight"
+  key="1"
 >
-  <img />
-  <p />
+  <img
+    alt="testTitle"
+    src="https://localhost/hey.jpg"
+  />
+  <p>
+    testTitle
+  </p>
 </div>
 `;
