@@ -26,6 +26,6 @@ describe('Tests on <GifGridItem />', () => {
 		const expectedClassName = 'animate__backInRight';
 		const div = wrapper.find('div');
 
-		expect(div.hasClass(expectedClassName)).toEqual(true);
+		expect(div.hasClass(expectedClassName)).toBe(true);
 	});
 });
