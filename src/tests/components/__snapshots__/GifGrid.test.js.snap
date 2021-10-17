@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <GifGrid /> Should display correctly 1`] = `
+<div>
+  <h3>
+    Warcaft
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <ol
+    className="card-container"
+  />
+</div>
+`;
+
+exports[`Tests on <GifGrid /> should show the correct component and match with the snapshot 1`] = `
+<div>
+  <h3>
+    Warcaft
+  </h3>
+  <ol
+    className="card-container"
+  >
+    <GifGridItem
+      id="123"
+      key="123"
+      title="gif example"
+      url="http://localhost/gifs/gif_example.gif"
+    />
+  </ol>
+</div>
+`;
